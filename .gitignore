@@ -1,0 +1,56 @@
+
+# ==============================
+# Java / Spring Boot
+# ==============================
+**/target/
+*.class
+*.log
+*.jar
+*.war
+
+# ==============================
+# Eclipse / Spring Tool Suite
+# ==============================
+**/.metadata/
+**/.settings/
+**/.classpath
+**/.project
+**/.factorypath
+
+# ==============================
+# IntelliJ
+# ==============================
+**/.idea/
+*.iml
+
+# ==============================
+# Node.js / React / Vite
+# ==============================
+**/node_modules/
+**/dist/
+**/.vite/
+**/coverage/
+
+# ==============================
+# Environment variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Python (AI Service, if applicable)
+# ==============================
+**/__pycache__/
+*.py[cod]
+**/.venv/
+**/venv/
+**/.pytest_cache/
+**/.ipynb_checkpoints/
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
